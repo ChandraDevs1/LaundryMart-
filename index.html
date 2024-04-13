@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Wallah</title>
+    <style>
+        body {
+            border: 4px solid black;
+        }
+
+        #content {
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Better to use percentage or absolute values for image dimensions */
+        img {
+            width: 450px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Laundry Wallah / Laundry Mart</h1>
+    </header>
+    <main id="content">
+        <p>
+            A laundry wallah, or launderer, is a professional who specializes in washing, drying, and pressing clothes and other textiles. This service is a staple in many parts of the world, particularly in urban areas where people may have busy lifestyles and limited access to laundry facilities. The laundry wallah's responsibilities include sorting clothes by color and fabric type to prevent damage during the washing process, using appropriate detergents and cleaning agents to maintain the quality of garments, and ensuring that clothes are thoroughly cleaned and properly dried. In addition, the laundry wallah often offers ironing and folding services to keep garments looking neat and presentable. This profession plays a crucial role in the community by helping individuals and families manage their laundry needs efficiently, saving them time and effort.
+        </p>
+
+        <img src="Designer.jpeg" alt="Image of Laundry" />
+
+        <h2>Our Services</h2>
+        <ul>
+            <li>Washing and Drying</li>
+            <li>Ironing and Folding</li>
+            <li>Dry Cleaning</li>
+            <li>Stain Removal</li>
+            <li>Express Services</li>
+            <li>Special Garment Care</li>
+            <li>and more...</li>
+        </ul>
+
+        <h2>Price List</h2>
+        <table>
+            <tr>
+                <th>Service</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Washing and Drying</td>
+                <td>₹10.00</td>
+            </tr>
+            <tr>
+                <td>Ironing and Folding</td>
+                <td>₹5.00</td>
+            </tr>
+        </table>
+
+        <h2>Book Now</h2>
+        <form>
+            <div>
+                <label for="fname">Name:</label>
+                <input type="text" id="fname" name="fname" required>
+            </div>
+            <div>
+                <label for="mail">Email:</label>
+                <input type="email" name="mail" id="mail" required>
+            </div>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" id="phone" required pattern="\d{10}" title="Enter a 10-digit phone number.">
+            </div>
+        </form>
+    </main>
+    <footer>
+        Contact us at: info@laundrymart.com
+    </footer>
+</body>
+
+</html>
+
